@@ -7,7 +7,9 @@ You can download our anomaly detection and reasoning dataset **AD-PL** from [AD-
 # Installation
 ## Requirements
 Python 3.8+
+
 PyTorch 1.9+
+
 CUDA 11.0+ (for GPU training)
 ## Environment Setup
 ### Using requirements.txt
