@@ -30,7 +30,10 @@ Downloading pre-trained [InternVL2-8B](https://huggingface.co/OpenGVLab/InternVL
 
 Training stage1:
 ```
+# Full finetuning
 GPUS=8 PER_DEVICE_BATCH_SIZE=1 sh training/sfe_stage/shell/finetuning/internvl2_8b_finetune_full.sh
+# Lora finetuning. After Lora sft, using utils/merge_lora.py to merge the model
+GPUS=8 PER_DEVICE_BATCH_SIZE=1 sh training/sfe_stage/shell/finetuning/internvl2_8b_finetune_lora.sh
 ```
 Training stage2:
 ```
