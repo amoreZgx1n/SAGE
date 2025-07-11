@@ -8,11 +8,11 @@ More dataset can be used for training and testing: [MANTA](https://grainnet.gith
 ![Overview of our proposed SAGE](Figure/model.png)
 # Installation
 ## Requirements
-Python 3.8+
+Python 3.10+
 
-PyTorch 1.9+
+PyTorch 2+
 
-CUDA 11.0+ (for GPU training)
+CUDA 12.4+ 
 ## Environment Setup
 ### Using requirements.txt
 ```
@@ -23,3 +23,18 @@ conda activate sage
 # Install exact dependencies (recommended for reproducibility)
 pip install -r requirements.txt
 ```
+# Quick Start
+Downloading pre-trained [InternVL2-8B](https://huggingface.co/OpenGVLab/InternVL2-8B)
+
+(Optional)You can use the `utils/discription_generate.py` to generate fact about the data offline.
+
+Training stage1:
+```
+GPUS=8 PER_DEVICE_BATCH_SIZE=1 sh training/sfe_stage/shell/finetuning/internvl2_8b_finetune_full.sh
+```
+Training stage2:
+```
+GPUS=8 PER_DEVICE_BATCH_SIZE=1 sh training/edpo_stage/shell/internvl2_8b_edpo_full.sh
+```
+# Inference and Eval
+inference, acc and MLE evaluation scripts can be used in `utils`.
