@@ -26,7 +26,7 @@ pip install -r requirements.txt
 # Quick Start
 Downloading pre-trained [InternVL2-8B](https://huggingface.co/OpenGVLab/InternVL2-8B)
 
-(Optional)You can use the `utils/discription_generate.py` to generate fact about the data offline.
+(Optional) You can use the `utils/discription_generate.py` to generate fact about the data offline.
 
 Training stage1:
 ```
