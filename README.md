@@ -3,7 +3,7 @@ This is the official repository for our recent paper "SAGE: A Visual Language Mo
 # Dataset
 You can download our anomaly detection and reasoning dataset **AD-PL** from [AD-PL](https://pan.baidu.com/s/1Jr68D6ysgdEFgOB0UTZJdw?pwd=b2nd)
 
-More dataset can be used for training and testing: [MANTA](https://grainnet.github.io/MANTA) and [MMAD](https://github.com/jam-cc/MMAD).
+More datasets can be used for training and testing: [MANTA](https://grainnet.github.io/MANTA) and [MMAD](https://github.com/jam-cc/MMAD).
 # Model Architecture
 ![Overview of our proposed SAGE](Figure/model.png)
 # Installation
