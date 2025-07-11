@@ -1,0 +1,9 @@
+{
+    "scienceqa_multi_choice_en_20240402_extracted_pairs_vqa_format_rules": {
+        "root": "/mnt/pfs-mc0p4k/tts/team/zgx/workplace/internVL2/dataset/MVTecQA",
+        "annotation": "/mnt/pfs-mc0p4k/tts/team/zgx/workplace/internVL2/dataset/internvl_mvtec/mvtecqa_8810_pairs_updated.jsonl",
+        "data_augment": false,
+        "repeat_time": 1,
+        "length": 8810
+    }
+}
