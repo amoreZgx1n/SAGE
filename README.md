@@ -40,3 +40,14 @@ GPUS=8 PER_DEVICE_BATCH_SIZE=1 sh training/edpo_stage/shell/internvl2_8b_edpo_fu
 inference, acc and MLE evaluation scripts can be used in `utils`.
 # Lisence
 This project is licensed under the Apache-2.0 License - see the [LICENSE](LICENSE) file for details.
+```
+@misc{zang2025sagevisuallanguagemodel,
+      title={SAGE: A Visual Language Model for Anomaly Detection via Fact Enhancement and Entropy-aware Alignment}, 
+      author={Guoxin Zang and Xue Li and Donglin Di and Lanshun Nie and Dechen Zhan and Yang Song and Lei Fan},
+      year={2025},
+      eprint={2507.07939},
+      archivePrefix={arXiv},
+      primaryClass={cs.CL},
+      url={https://arxiv.org/abs/2507.07939}, 
+}
+```
