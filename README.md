@@ -38,3 +38,5 @@ GPUS=8 PER_DEVICE_BATCH_SIZE=1 sh training/edpo_stage/shell/internvl2_8b_edpo_fu
 ```
 # Inference and Eval
 inference, acc and MLE evaluation scripts can be used in `utils`.
+# Lisence
+This project is licensed under the Apache-2.0 License - see the ![LICENSE](License) file for details.
