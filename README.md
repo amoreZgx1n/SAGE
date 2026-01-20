@@ -46,13 +46,11 @@ This work is implemented based on [InternVL](https://github.com/OpenGVLab/Intern
 # Lisence
 This project is licensed under the Apache-2.0 License - see the [LICENSE](LICENSE) file for details.
 ```
-@misc{zang2025sagevisuallanguagemodel,
-      title={SAGE: A Visual Language Model for Anomaly Detection via Fact Enhancement and Entropy-aware Alignment}, 
-      author={Guoxin Zang and Xue Li and Donglin Di and Lanshun Nie and Dechen Zhan and Yang Song and Lei Fan},
-      year={2025},
-      eprint={2507.07939},
-      archivePrefix={arXiv},
-      primaryClass={cs.CL},
-      url={https://arxiv.org/abs/2507.07939}, 
+@inproceedings{zang2025sage,
+  title={SAGE: A Visual Language Model for Anomaly Detection via Fact Enhancement and Entropy-aware Alignment},
+  author={Zang, Guoxin and Li, Xue and Di, Donglin and Nie, Lanshun and Zhan, Dechen and Song, Yang and Fan, Lei},
+  booktitle={Proceedings of the 33rd ACM International Conference on Multimedia},
+  pages={5030--5039},
+  year={2025}
 }
 ```
